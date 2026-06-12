@@ -1,0 +1,114 @@
+{
+  "_comment": "技术方案/投标书/白皮书 通用格式（参考你已分析的上汽通用五菱投标书版式）",
+  "page": {
+    "size": "A4",
+    "width_cm": 21.0,
+    "height_cm": 29.7,
+    "margin_top_cm": 2.54,
+    "margin_bottom_cm": 2.54,
+    "margin_left_cm": 3.17,
+    "margin_right_cm": 3.17,
+    "header_cm": 1.5,
+    "footer_cm": 1.75,
+    "gutter_cm": 0
+  },
+  "fonts": {
+    "default_eastAsia": "宋体",
+    "default_ascii": "Times New Roman",
+    "title_eastAsia": "黑体",
+    "title_ascii": "Arial",
+    "heading_eastAsia": "黑体",
+    "heading_ascii": "Arial",
+    "subheading_eastAsia": "宋体",
+    "subheading_ascii": "Arial",
+    "table_eastAsia": "宋体",
+    "table_ascii": "Arial"
+  },
+  "sizes_pt": {
+    "title": 36,
+    "subtitle": 22,
+    "h1": 16,
+    "h2": 14,
+    "h3": 13,
+    "h4": 12,
+    "body": 12,
+    "table": 10.5,
+    "footer": 9,
+    "header": 9,
+    "caption": 10.5
+  },
+  "_size_note": "三号 16pt = 一级标题；四号 14pt = 二级标题；小四 12pt = 正文；五号 10.5pt = 表格",
+  "colors": {
+    "title": "000000",
+    "h1": "000000",
+    "h2": "000000",
+    "h3": "000000",
+    "body": "000000",
+    "header_line": "1F4E79",
+    "table_header_bg": "D9E2F3",
+    "table_header_fg": "000000"
+  },
+  "paragraph": {
+    "body_align": "justify",
+    "title_align": "center",
+    "heading_align": "left",
+    "first_line_indent_chars": 2,
+    "line_spacing_rule": "multiple",
+    "line_spacing_value": 1.5,
+    "space_before_pt": 0,
+    "space_after_pt": 0,
+    "h1_space_before_pt": 24,
+    "h1_space_after_pt": 18,
+    "h2_space_before_pt": 12,
+    "h2_space_after_pt": 6,
+    "auto_h1_pagebreak": true
+  },
+  "table": {
+    "default_style": "Table Grid",
+    "border_color": "000000",
+    "border_size_eighth_pt": 4,
+    "cant_split_rows": true,
+    "repeat_header_row": true,
+    "header_bold": true,
+    "header_align": "center",
+    "cell_align": "left",
+    "cell_valign": "center",
+    "layout": "fixed",
+    "autofit": false,
+    "row_min_height_cm": 0.6
+  },
+  "cover": {
+    "vertical_align": "center",
+    "title_size_pt": 36,
+    "title_color": "000000",
+    "title_bold": true,
+    "subtitle_size_pt": 22,
+    "meta_size_pt": 14,
+    "show_org": true,
+    "show_date": true
+  },
+  "toc": {
+    "title": "目  录",
+    "title_size_pt": 22,
+    "title_align": "center",
+    "depth": 3,
+    "tab_leader": "dots",
+    "single_section": true,
+    "page_break_before": true,
+    "page_break_after": true
+  },
+  "header_footer": {
+    "header_text": "",
+    "footer_text": "",
+    "footer_show_page_number": true,
+    "footer_align": "center",
+    "page_number_format": "{n}",
+    "different_first_page": true,
+    "cover_no_pagenumber": true
+  },
+  "list": {
+    "ordered_pattern_l1": "1.",
+    "ordered_pattern_l2": "(1)",
+    "ordered_pattern_l3": "①"
+  }
+}
