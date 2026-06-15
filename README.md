@@ -48,6 +48,9 @@ Just describe the task; Claude picks up the skill from its trigger keywords:
 
 > Use the skeleton mode to clone last_proposal.docx and write a new tender for ABC Corp
 
+For copy-paste prompt templates covering the three common scenarios
+(skeleton mode / preset mode / draft-then-render), see **[PROMPTS.md](PROMPTS.md)**.
+
 ## Direct CLI
 
 ```bash
